@@ -82,9 +82,8 @@ font-size: 50px ;
      border-color: black;
  }
 
- #links{
-     text-align: center;
- }
+
+ 
   /* form{
       text-align: center;
       height: 200px;
@@ -106,70 +105,80 @@ font-size: 50px ;
 
   }
 
-  /* form{
-      display: block;
+   form{
+      
       height: auto;
-      max-width: 100%;
+      
+      
+      margin: 0;
+      
+      
+      
+
+
+  } 
+
+   #contactcontainer{
       text-align: center;
-      border: 2px solid lightgreen;
-      background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+  } 
 
+  
 
-  } */
-
-  /* #contactcontainer{
-      text-align: center;
-  } */
-
-  .side-contact{
-      position: fixed;
-      top: 50%;
-  }
-
-  .banner{
-      width: 100%;
-      height: 100vh;
-      background: url(lights.jpeg);
-  }
+  
 
   .sidebarcontact{
-      position: fixed;
-      top: 50%;
-      left: 0;
-      transform: translateY(-50%);
-      width: 350px;
+      
+      justify-content: space-evenly;
+      display: flex;
+      width: 600px;
       height: auto;
       padding: 40px;
       box-shadow: 0 20px 50px rgba(120, 253, 175, 0.932) ;
-      box-sizing: border-box;
+      
 
   }
 
-  .sidebarcontact input,
+  /* .sidebarcontact input,
   .sidebarcontact textarea{
-      width: 100%;
-      height: 36px;
-      padding: 5px;
-      margin-bottom: 10px;
-      box-sizing: border-box;
-      border: 1px solid lightgreen;
-      outline: none;
+      
+  } */
+
+  form input,
+  form textarea{
+    width: 100%;
+    height: 36px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid lightgreen;
+    outline: none;
+    margin-right: 0;
+    
 
   }
 
-  .toggle{
-      position:absolute ;
-      top: 0;
-      right: -48px;
-      width: 48px;
-      height: 48px;
-      text-align: center;
-      cursor: pointer;
-      background-color:rgb(0, 255, 128) ;
-  }
+  
 
-  .toggle::before{
-      content: '/'; 
-      font-family: fontAwesome;
+  .fa-times{
       color: black;
+      
+  }
+
+  #inline{
+      display: inline;
+  }
+  
+  
+
+  #git{
+      flex-direction: row;
+      margin-left: 1rem;
+  }
+
+  .fa-github{
+      color: lightgreen;
+  }
+
+  .fa-linkedin-in{
+      color: lightgreen;
   }
